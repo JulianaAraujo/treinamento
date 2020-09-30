@@ -18,9 +18,6 @@ footer{
   box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.12), -6px -6px 8px rgba(0, 0, 0, 0.12);
 }
 
-#geral{
-  display: flex;
-}
 
 #geral>div{
   
@@ -50,6 +47,11 @@ iframe{
     display: flex;
     flex-direction: column;
   }
+  #geral{
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 
@@ -61,6 +63,10 @@ iframe{
     flex-wrap: wrap;
     
   }
+  
+#geral{
+  display: flex;
+}
   #segunda>div{
     align-content: center;
   }
